@@ -12,11 +12,24 @@ body {
   background-color: #111;
   color: #eee;
   padding: 3em;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+p {
   margin-bottom: 2em;
+}
+
+a {
+  color: #eee;
+}
+
+a:hover,
+a:focus {
+  color: #aaa;
 }
 
 .github {
@@ -24,10 +37,5 @@ h1 {
   display: block;
   top: 2em;
   right: 2em;
-  color: #eee;
   text-decoration: none;
-}
-
-.github:hover {
-  color: #aaa;
 }
