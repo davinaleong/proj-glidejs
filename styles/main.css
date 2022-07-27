@@ -38,4 +38,5 @@ a:focus {
   top: 2em;
   right: 2em;
   text-decoration: none;
+  z-index: 1;
 }
